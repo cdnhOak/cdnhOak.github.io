@@ -1,127 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1504.84">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;title&gt;W3.CSS Template&lt;/title&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"&gt;</p>
-<p class="p1">&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"&gt;</p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1">body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}</p>
-<p class="p1">.w3-bar,h1,button {font-family: "Montserrat", sans-serif}</p>
-<p class="p1">.fa-anchor,.fa-coffee {font-size:200px}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Navbar --&gt;</p>
-<p class="p1">&lt;div class="w3-top"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-bar w3-red w3-card w3-left-align w3-large"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"&gt;&lt;i class="fa fa-bars"&gt;&lt;/i&gt;&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-padding-large w3-white"&gt;Home&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"&gt;Link 1&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"&gt;Link 2&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"&gt;Link 3&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white"&gt;Link 4&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- Navbar on small screens --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-padding-large"&gt;Link 1&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-padding-large"&gt;Link 2&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-padding-large"&gt;Link 3&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="#" class="w3-bar-item w3-button w3-padding-large"&gt;Link 4&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Header --&gt;</p>
-<p class="p1">&lt;header class="w3-container w3-red w3-center" style="padding:128px 16px"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1 class="w3-margin w3-jumbo"&gt;START PAGE&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;p class="w3-xlarge"&gt;Template by w3.css&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"&gt;Get Started&lt;/button&gt;</p>
-<p class="p1">&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- First Grid --&gt;</p>
-<p class="p1">&lt;div class="w3-row-padding w3-padding-64 w3-container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-content"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-twothird"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Lorem Ipsum&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h5 class="w3-padding-32"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/h5&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="w3-text-grey"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint</p>
-<p class="p1"><span class="Apple-converted-space">        </span>occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-<p class="p1"><span class="Apple-converted-space">        </span>laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-third w3-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;i class="fa fa-anchor w3-padding-64 w3-text-red"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Second Grid --&gt;</p>
-<p class="p1">&lt;div class="w3-row-padding w3-light-grey w3-padding-64 w3-container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-content"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-third w3-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="w3-twothird"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Lorem Ipsum&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h5 class="w3-padding-32"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/h5&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="w3-text-grey"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint</p>
-<p class="p1"><span class="Apple-converted-space">        </span>occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-<p class="p1"><span class="Apple-converted-space">        </span>laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;div class="w3-container w3-black w3-center w3-opacity w3-padding-64"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1 class="w3-margin w3-xlarge"&gt;Quote of the day: live life&lt;/h1&gt;</p>
-<p class="p1">&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;!-- Footer --&gt;</p>
-<p class="p1">&lt;footer class="w3-container w3-padding-64 w3-center w3-opacity"&gt; <span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="w3-xlarge w3-padding-32"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;i class="fa fa-facebook-official w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;i class="fa fa-instagram w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;i class="fa fa-snapchat w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;i class="fa fa-pinterest-p w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;i class="fa fa-twitter w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;i class="fa fa-linkedin w3-hover-opacity"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space"> </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space"> </span>&lt;p&gt;Powered by &lt;a href="https://www.w3schools.com/w3css/default.asp" target="_blank"&gt;w3.css&lt;/a&gt;&lt;/p&gt;</p>
-<p class="p1">&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">// Used to toggle the menu on small screens when clicking on the menu button</p>
-<p class="p1">function myFunction() {</p>
-<p class="p1"><span class="Apple-converted-space">  </span>var x = document.getElementById("navDemo");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>if (x.className.indexOf("w3-show") == -1) {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>x.className += " w3-show";</p>
-<p class="p1"><span class="Apple-converted-space">  </span>} else {<span class="Apple-converted-space"> </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>x.className = x.className.replace(" w3-show", "");</p>
-<p class="p1"><span class="Apple-converted-space">  </span>}</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p2"><br></p>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">START PAGE</h1>
+  <p class="w3-xlarge">Template by w3.css</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 </body>
 </html>
+
